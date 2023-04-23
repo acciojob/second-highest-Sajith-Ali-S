@@ -1,8 +1,8 @@
 
-		let len = arr.length
+
 
 function isAllElementsSame (arr){
-    
+    	let len = arr.length
     for(let i =1;i<len; i++){
         if(arr[0]!=arr[i])return false;
     }
@@ -10,7 +10,7 @@ function isAllElementsSame (arr){
 }
 
 function secondHighest(arr) {
-    
+    	let len = arr.length
     if(arr.length==0 || isAllElementsSame(arr)==true)return -Infinity
 
     let max = -Infinity;
